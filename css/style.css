@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    -60deg,
+    rgb(4, 209, 4) 50%,
+    rgb(10, 10, 10) 50%
+  );
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+body {
+  background-image: url(../images/modern.webp);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container img {
+  width: 40px;
+}
+.container h2 {
+  color: blue;
+}
+.add input {
+  margin: 10px;
+}
+.contacts {
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-group-item img {
+  width: 50px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.live-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.list-group-inp {
+  width: 400px;
+}
+.modal-title img {
+  width: 40px;
+}
+.modal-title {
+  color: rgb(4, 0, 255);
+}
+.my-modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 224, 105, 0.5);
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal-body1 {
+  width: 500px;
+  height: 350px;
+  background: rgb(83, 1, 90);
+  padding: 15px;
+  position: relative;
+  border-radius: 10px;
+}
+.close-modal {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.modal-body1 input,
+.modal-body1 button {
+  margin: 5px 0;
+}
+.kpi-color {
+  color: rgb(7, 15, 126);
+}
+.next {
+  color: black;
+  background: rgb(5, 132, 216);
+  font-weight: bold;
+}

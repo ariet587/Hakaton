@@ -1,0 +1,84 @@
+{
+  "contacts": [
+    {
+      "firstName": "Исмаилов ",
+      "lastName": "Ариет",
+      "phone": "+996700836550",
+      "kpiWeek": "90",
+      "kpiMonth": "90",
+      "id": 1
+    },
+    {
+      "firstName": "Садыр ",
+      "lastName": "Жапаров",
+      "phone": "+996700569636",
+      "kpiWeek": "74",
+      "kpiMonth": "80",
+      "id": 2
+    },
+    {
+      "firstName": "Адилбекова",
+      "lastName": "Асел",
+      "phone": "+996709486342",
+      "kpiWeek": "89",
+      "kpiMonth": "95",
+      "id": 3
+    },
+    {
+      "firstName": "Айбашев",
+      "lastName": "Уран",
+      "phone": "+996705239685",
+      "kpiWeek": "96",
+      "kpiMonth": "92",
+      "id": 4
+    },
+    {
+      "firstName": "Авазбеков",
+      "lastName": "Агахан",
+      "phone": "+996777859674",
+      "kpiWeek": "90",
+      "kpiMonth": "85",
+      "id": 5
+    },
+    {
+      "firstName": "Джапаров",
+      "lastName": "Темирлан",
+      "phone": "+996552637412",
+      "kpiWeek": "85",
+      "kpiMonth": "95",
+      "id": 6
+    },
+    {
+      "firstName": "Курбанова ",
+      "lastName": "Саера",
+      "phone": "+996556639574",
+      "kpiWeek": "74",
+      "kpiMonth": "80",
+      "id": 7
+    },
+    {
+      "firstName": "Киселев",
+      "lastName": "Михаил",
+      "phone": "+996774859613",
+      "kpiWeek": "70",
+      "kpiMonth": "74",
+      "id": 8
+    },
+    {
+      "firstName": "Карыбекова",
+      "lastName": "Айгерим",
+      "phone": "+996706118596",
+      "kpiWeek": "92",
+      "kpiMonth": "90",
+      "id": 9
+    },
+    {
+      "firstName": "Рысбаев",
+      "lastName": "Эмир",
+      "phone": "+996708856312",
+      "kpiWeek": "85",
+      "kpiMonth": "80",
+      "id": 10
+    }
+  ]
+}
